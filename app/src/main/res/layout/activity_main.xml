@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp"/>
+
+    <Switch
+        android:id="@+id/vpn_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VPN State"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/proxy_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proxy Host (e.g., 119.96.227.111)" />
+
+    <EditText
+        android:id="@+id/proxy_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proxy Port (e.g., 2222)" />
+
+    <EditText
+        android:id="@+id/proxy_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username (optional)" />
+
+    <EditText
+        android:id="@+id/proxy_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password (optional)"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/statistics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
