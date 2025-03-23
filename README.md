@@ -1,6 +1,6 @@
 # Socks2VPN for Android
 
-Socks2VPN 是一款免 Root 的 Android 应用，旨在将 SOCKS5 代理转换为 VPN 连接，帮助用户在移动设备上安全地访问互联网，同时保护用户的隐私和安全。
+Socks2VPN 是一款将 SOCKS5 代理转换为 VPN 连接的工具
 
 ![image text](img/1.png)
 
